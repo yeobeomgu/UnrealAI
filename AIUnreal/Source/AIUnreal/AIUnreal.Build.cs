@@ -8,6 +8,16 @@ public class AIUnreal : ModuleRules
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 
-		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "HeadMountedDisplay", "EnhancedInput", "NavigationSystem", "AIModule", "GameplayTasks" });
+		PublicDependencyModuleNames.AddRange(new string[] { 
+			"Core",
+			"CoreUObject",
+			"Engine",
+			"InputCore",
+			"HeadMountedDisplay",
+			"EnhancedInput",
+			"NavigationSystem",
+			"AIModule",
+			"GameplayTasks"
+		});
 	}
 }
